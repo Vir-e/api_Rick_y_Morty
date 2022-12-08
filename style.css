@@ -1,0 +1,94 @@
+*{
+
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #040c3b;
+}
+
+header{
+
+    text-align: center;
+
+}
+.titulo{
+   /* color: #0CB7F2;*/
+  
+   -webkit-text-fill-color: #0CB7F2;
+   -webkit-text-stroke: 0.75px #3df883;
+    font-family: monospace, Impact, Helvetica;
+    font-size: 40px;
+}
+
+
+h2{
+
+    /*color: #3df883;*/
+    -webkit-text-fill-color: #3df883;
+    -webkit-text-stroke: 0.5px #000;
+    margin-bottom: 30px;
+    
+}
+
+.btn{
+    background-image: url("img/flecha.png");
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+    background-size: 150px 150px;
+    /*background-position: center;*/
+    padding: 0px 0px 0px 0px;
+    margin-top: -270px;   
+    border: none;
+}
+
+
+
+#btnSig{
+
+   float: right;
+   margin-right: 65px;
+   
+}
+
+#btnAnt{
+
+    float: left;
+    transform : rotate(180deg);
+    margin-left: 65px;
+ 
+ }
+main{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.contenedorImg{
+   
+    
+    display: flex;
+    
+    
+}
+
+.contenedorImg img{
+
+   width: 100%;
+
+}
+
+.txtPers{
+
+    color:#3df883;
+    font-size: 20px;
+    
+}
+
+article{
+
+   
+    padding: 10px;
+    box-shadow: 1px 0px 8px #3df883;
+}
